@@ -1,0 +1,22 @@
+{
+    "name": "jari-bot",
+    "version": "0.0.1",
+    "main": "src/index.ts",
+    "repository": "https://github.com/bennyk0406/jari-bot.git",
+    "author": "Jari",
+    "scripts": {
+        "start": "ts-node src/index.ts",
+        "deploy": "ts-node src/deployCommands.ts"
+    },
+    "devDependencies": {
+        "eslint": "^8.13.0",
+        "ts-node": "^10.7.0",
+        "typescript": "^4.6.3"
+    },
+    "dependencies": {
+        "@discordjs/builders": "^0.13.0",
+        "@discordjs/rest": "^0.4.1",
+        "discord-api-types": "^0.31.2",
+        "discord.js": "^13.6.0"
+    }
+}
